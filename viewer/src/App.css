@@ -1,0 +1,17 @@
+.random-image {
+    background-size: cover !important;
+    background-attachment: fixed;
+    background-position: center;
+    height: 100vh;
+    width: 100%;
+}
+
+#random-title {
+  text-transform: uppercase;
+  font-weight: bold;
+  color: white;
+  text-shadow: 1px 1px 1px black;
+  margin-top: 60vh;
+  font-size: 8em;
+}
+

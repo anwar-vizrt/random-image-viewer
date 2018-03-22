@@ -38,13 +38,13 @@ class App extends Component {
   };
 
   render() {
-    const heroImageStyle = {
+    const randomImageStyle = {
       backgroundImage: `url('${this.state.imageUrl}')`,
     };
     return (
       <div className="ui middle aligned grid">
         <div className="row">
-          <div className="random-image" style={heroImageStyle}>
+          <div className="random-image" style={randomImageStyle}>
             <div className="eight wide column">
               <h2 id="random-title" className="ui center aligned header">
                 {this.state.header}

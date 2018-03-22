@@ -13,7 +13,7 @@ class App extends Component {
   };
 
     componentDidMount() {
-        fetch("http://localhost:3000/photos/random")
+        fetch("http://34.240.123.159/photos/random")
             .then(response => {
                 return response.json().then(data => {
                     return data['data']
